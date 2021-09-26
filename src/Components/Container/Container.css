@@ -1,0 +1,12 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.teachers-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 15px 20px 15px;
+
+}
