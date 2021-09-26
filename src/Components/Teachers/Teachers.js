@@ -1,7 +1,7 @@
 import React from 'react';
 import './Teachers.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Teachers = (props) => {
     const{name,subject,sallary,img,age,university}=props.teacher;
@@ -18,7 +18,7 @@ const Teachers = (props) => {
                         <h5 className="card-title">Subject : {subject} </h5>
                         <h5 className="card-title">University : {university} </h5>
                         <h5 className="card-title">Sallary : {sallary} </h5>
-                        <button onClick={()=>props.handleAddToList(props.teacher)} className='addCart'>add to list</button>
+                        <button onClick={()=>props.handleAddToList(props.teacher)} className='addCart'><FontAwesomeIcon icon={faShoppingCart} /> Add to list </button>
                     </div>
                     </div>
                 
