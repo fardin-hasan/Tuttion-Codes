@@ -1,10 +1,10 @@
 # Tution Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is  [MY SITE LINK](https://sleepy-meninsky-babda3.netlify.app/).
 
-## Available Scripts
+## Benifits
 
-In the project directory, you can run:
+*
 
 ### `npm start`
 
